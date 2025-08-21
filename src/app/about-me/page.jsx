@@ -15,10 +15,11 @@ export default function AboutMe() {
         </div>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 text-white/90 mb-8">
           <Image
-            src="/me.png"
+            src="/me.webp"
             width={400}
             height={500}
             alt="A photo of Roberto Ferraz, the designer."
+            loading="lazy"
           />
           <div className="max-w-full md:max-w-xl text-lg lg:text-base space-y-6 lg:space-y-4">
             <p>

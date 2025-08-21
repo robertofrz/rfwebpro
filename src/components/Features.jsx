@@ -6,37 +6,37 @@ export default function Features() {
       title: "I Study Your Business First",
       description:
         "I research your industry and competitors to ensure your website stands out, connects with ideal customers, builds trust, and encourages confident action.",
-      image: "/icons/competition.png",
+      image: "/icons/competition.webp",
     },
     {
       title: "Fully Responsive",
       description:
         "Your website will work perfectly on any device (phone, tablet, or desktop) ensuring you don’t lose customers due to poor mobile or tablet experience.",
-      image: "/icons/devices.png",
+      image: "/icons/devices.webp",
     },
     {
       title: "No Generic Templates",
       description:
         "I write custom code for your business, avoiding generic templates and themes, so your site is faster, more secure, and uniquely tailored to your brand.",
-      image: "/icons/coding.png",
+      image: "/icons/coding.webp",
     },
     {
       title: "Fast Loading & SEO-Friendly",
       description:
         "Your website loads in under a second, keeping visitors engaged. I optimize for search engines so more customers find and trust your business online.",
-      image: "/icons/performance.png",
+      image: "/icons/performance.webp",
     },
     {
       title: "Clear Process, No Surprises",
       description:
         "I provide clear proposals, timelines, and regular reviews so you always know what’s happening. No hidden fees, surprises, or confusion.",
-      image: "/icons/proposal.png",
+      image: "/icons/proposal.webp",
     },
     {
       title: "With You After Launch",
       description:
         "After launch, I’m here to fix issues and answer questions, giving you peace of mind with expert support just a message away.",
-      image: "/icons/support.png",
+      image: "/icons/support.webp",
     },
   ];
 

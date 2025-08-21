@@ -24,7 +24,7 @@ export default function Maintenance() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-2">
           <div className="w-full lg:w-2/5">
             <Image
-              src="/website-maintenance.png"
+              src="/website-maintenance.webp"
               width={500}
               height={320}
               alt="Illustration representing website maintenance."
@@ -36,10 +36,11 @@ export default function Maintenance() {
             {/* 1 */}
             <div className="flex items-start gap-1">
               <Image
-                src="/check.png"
+                src="/check.webp"
                 width={80}
                 height={80}
                 alt="Check icon."
+                loading="lazy"
                 className="-mt-1"
               />
               <div>
@@ -57,7 +58,7 @@ export default function Maintenance() {
             {/* 2 */}
             <div className="flex items-start gap-1">
               <Image
-                src="/check.png"
+                src="/check.webp"
                 width={80}
                 height={80}
                 alt="Check icon."
@@ -77,7 +78,7 @@ export default function Maintenance() {
             {/* 3 */}
             <div className="flex items-start gap-1">
               <Image
-                src="/check.png"
+                src="/check.webp"
                 width={80}
                 height={80}
                 alt="Check icon."
@@ -96,7 +97,7 @@ export default function Maintenance() {
             </div>
             <div className="flex items-start gap-1">
               <Image
-                src="/check.png"
+                src="/check.webp"
                 width={80}
                 height={80}
                 alt="Check icon."
@@ -116,7 +117,7 @@ export default function Maintenance() {
             {/* 4 */}
             <div className="flex items-start gap-1">
               <Image
-                src="/check.png"
+                src="/check.webp"
                 width={80}
                 height={80}
                 alt="Check icon."
@@ -136,7 +137,7 @@ export default function Maintenance() {
             {/* 5 */}
             <div className="flex items-start gap-1">
               <Image
-                src="/check.png"
+                src="/check.webp"
                 width={80}
                 height={80}
                 alt="Check icon."

@@ -9,6 +9,7 @@ export default function FeatureCard({ title, description, image }) {
           width={70}
           height={70}
           alt={`An icon representing the feature ${title}`}
+          loading="lazy"
         />
       </div>
       <h4 className="oswald uppercase leading-[1] tracking-[-0.0625rem] text-neutral-800 font-semibold text-2xl lg:text-xl text-left mt-4">

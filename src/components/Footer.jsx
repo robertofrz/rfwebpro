@@ -21,11 +21,11 @@ export default function Footer() {
           {/* Center (Logo) */}
           <div className="flex justify-center self-center">
             <Image
-              src="/white-logo.png"
+              src="/white-logo.webp"
               alt="RF Web Pro Logo"
               width={170}
               height={130}
-              priority={true}
+              loading="lazy"
             />
           </div>
 

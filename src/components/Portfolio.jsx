@@ -25,10 +25,11 @@ export default function Portfolio() {
         <div className="flex flex-col md:flex-row items-center justify-evenly gap-20 w-full">
           <div className="flex flex-col items-center lg:items-start">
             <Image
-              src="/mockups/vitalia-mockup.png"
+              src="/mockups/vitalia-mockup.webp"
               width={400}
               height={200}
               alt="A laptop and a mobile mockup displaying Vitalia website."
+              loading="lazy"
               className="mb-4"
             />
             <h4 className="oswald uppercase text-2xl font-semibold mb-4 tracking-[-0.0625rem]">
@@ -50,10 +51,11 @@ export default function Portfolio() {
           </div>
           <div className="flex flex-col items-center lg:items-start">
             <Image
-              src="/mockups/gringos-mockup.png"
+              src="/mockups/gringos-mockup.webp"
               width={400}
               height={200}
               alt="A laptop and a mobile mockup displaying Gringo's barbershop website."
+              loading="lazy"
               className="mb-4"
             />
             <h4 className="oswald uppercase text-2xl font-semibold mb-4 tracking-[-0.0625rem]">

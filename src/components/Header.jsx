@@ -13,7 +13,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" onClick={() => setMenuAberto(false)}>
           <Image
-            src="/blue-logo.png"
+            src="/blue-logo.webp"
             alt="RF Web Pro Logo"
             width={100}
             height={70}

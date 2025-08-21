@@ -23,16 +23,18 @@ export default function Testimonials() {
           <div className="flex flex-col items-center bg-blue text-white p-6 rounded-lg shadow-lg">
             <div className="flex items-center justify-between mb-4 w-full">
               <Image
-                src="/quote-marks.png"
+                src="/quote-marks.webp"
                 width={60}
                 height={60}
                 alt="Quote marks icon."
+                loading="lazy"
               />
               <Image
-                src="/five-stars.png"
+                src="/five-stars.webp"
                 width={150}
                 height={15}
                 alt="Five stars icon."
+                loading="lazy"
               />
             </div>
             <p className="text-lg lg:text-base leading-7 max-w-full md:max-w-md mb-4 italic">
@@ -49,13 +51,13 @@ export default function Testimonials() {
           <div className="flex flex-col items-center bg-blue text-white p-6 rounded-lg shadow-lg">
             <div className="flex items-center justify-between w-full mb-4">
               <Image
-                src="/quote-marks.png"
+                src="/quote-marks.webp"
                 width={60}
                 height={60}
                 alt="Quote marks icon."
               />
               <Image
-                src="/five-stars.png"
+                src="/five-stars.webp"
                 width={150}
                 height={15}
                 alt="Five stars icon."
