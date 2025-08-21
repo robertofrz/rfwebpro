@@ -12,12 +12,12 @@ export default function Contact() {
     <main className="bg-blue text-white">
       <div className="section-width py-20 flex flex-col items-center justify-center gap-16 pt-35">
         <div className="flex flex-col items-center text-center">
-          <h2 className="oswald uppercase text-lg text-neutral-400 tracking-widest mb-2">
+          <h1 className="oswald uppercase text-lg text-neutral-400 tracking-widest mb-2">
             Contact Me
-          </h2>
-          <h3 className="max-w-full md:max-w-xl oswald uppercase leading-[1] tracking-[-0.0625rem] text-4xl sm:text-5xl font-semibold text-white mb-4">
+          </h1>
+          <h2 className="max-w-full md:max-w-xl oswald uppercase leading-[1] tracking-[-0.0625rem] text-4xl sm:text-5xl font-semibold text-white mb-4">
             Get In Touch
-          </h3>
+          </h2>
           <p className="text-lg lg:text-base max-w-full md:max-w-xl text-white/80">
             You can email me, start a chat on WhatsApp, or simply fill out the
             contact form with your details, and I will reach out to you. I

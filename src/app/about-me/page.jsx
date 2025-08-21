@@ -6,12 +6,12 @@ export default function AboutMe() {
     <main className="bg-blue text-white mt-15">
       <div className="section-width flex flex-col items-center justify-center gap-8 py-20">
         <div>
-          <h2 className="oswald uppercase text-lg text-center text-neutral-400 tracking-widest mb-2">
+          <h1 className="oswald uppercase text-lg text-center text-neutral-400 tracking-widest mb-2">
             Who I Am
-          </h2>
-          <h3 className="max-w-full md:max-w-xl oswald text-center uppercase leading-[1] tracking-[-0.0625rem] text-4xl sm:text-5xl font-semibold text-white mb-4">
+          </h1>
+          <h2 className="max-w-full md:max-w-xl oswald text-center uppercase leading-[1] tracking-[-0.0625rem] text-4xl sm:text-5xl font-semibold text-white mb-4">
             Crafting Digital Experiences with Passion
-          </h3>
+          </h2>
         </div>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 text-white/90 mb-8">
           <Image
