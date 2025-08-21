@@ -7,7 +7,7 @@ export default function Hero() {
       className="w-full min-h-screen
         bg-cover bg-left bg-no-repeat
         bg-[url('/bg/hero-mobile.webp')]
-        lg:bg-[url('/bg/hero-desktop2.webp')] flex items-center justify-center "
+        lg:bg-[url('/bg/hero-desktop.webp')] flex items-center justify-center "
     >
       <div className="pt-24 md:pt-32 lg:pt-32 section-width flex flex-col lg:flex-row items-center justify-center gap-4 lg:justify-between ">
         <div className=" flex flex-col justify-center items-center lg:items-start text-center lg:text-left px-1">
