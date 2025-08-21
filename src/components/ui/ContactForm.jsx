@@ -103,7 +103,7 @@ export default function ContactForm() {
           required
         />
 
-        <label className="flex items-center text-sm gap-2 text-white/80 mb-2">
+        <label className="flex items-center text-xs gap-2 text-white/80 mb-2 whitespace-nowrap">
           <input
             type="checkbox"
             name="consent"
@@ -115,14 +115,14 @@ export default function ContactForm() {
           I agree to the{" "}
           <Link
             href="/terms-of-service"
-            className="underline hover:text-lightblue"
+            className="underline hover:text-lightblue whitespace-nowrap"
           >
             Terms of Service
           </Link>{" "}
           and{" "}
           <Link
             href="/privacy-policy"
-            className="underline hover:text-lightblue"
+            className="underline hover:text-lightblue whitespace-nowrap"
           >
             Privacy Policy.
           </Link>
