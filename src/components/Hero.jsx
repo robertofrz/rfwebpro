@@ -48,8 +48,8 @@ export default function Hero() {
         <div className="mx-1">
           <Image
             src="/mockups/hero-mockup.webp"
-            width={700}
-            height={470}
+            width={930}
+            height={630}
             alt="A laptop and mobile mockup displaying a Pet Shop website."
             priority={true}
           ></Image>
