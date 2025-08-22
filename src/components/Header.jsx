@@ -81,7 +81,7 @@ export default function Header() {
       {/* Menu Mobile */}
       {menuAberto && (
         <div className="lg:hidden bg-white border-t border-gray-200 shadow-md">
-          <nav className="flex flex-col items-start px-6 py-4 gap-4">
+          <nav className="flex flex-col items-start px-6 py-4 gap-4 text-lg">
             <Link
               href="/about-me"
               className=" text-blue uppercase py-2"

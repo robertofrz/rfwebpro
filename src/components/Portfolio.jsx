@@ -22,7 +22,7 @@ export default function Portfolio() {
             deliver results.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-evenly gap-20 w-full">
+        <div className="flex flex-col md:flex-row items-center justify-evenly gap-22 w-full">
           <div className="flex flex-col items-center lg:items-start">
             <Image
               src="/mockups/vitalia-mockup.webp"

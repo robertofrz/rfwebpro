@@ -103,29 +103,32 @@ export default function ContactForm() {
           required
         />
 
-        <label className="flex items-center text-xs gap-2 text-white/80 mb-2 whitespace-nowrap">
+        <label className="flex items-start text-sm gap-2 text-white/80 mb-2">
           <input
             type="checkbox"
             name="consent"
             checked={formData.consent}
             onChange={handleChange}
             required
-            className="w-4 h-4"
+            className="w-4 h-4 mt-1"
           />
-          I agree to the{" "}
-          <Link
-            href="/terms-of-service"
-            className="underline hover:text-lightblue whitespace-nowrap"
-          >
-            Terms of Service
-          </Link>{" "}
-          and{" "}
-          <Link
-            href="/privacy-policy"
-            className="underline hover:text-lightblue whitespace-nowrap"
-          >
-            Privacy Policy.
-          </Link>
+          <span>
+            I agree to the{" "}
+            <Link
+              href="/terms-of-service"
+              className="underline hover:text-lightblue"
+            >
+              Terms of Service
+            </Link>{" "}
+            and{" "}
+            <Link
+              href="/privacy-policy"
+              className="underline hover:text-lightblue"
+            >
+              Privacy Policy
+            </Link>
+            .
+          </span>
         </label>
 
         {status.error && <p className="text-red-500">{status.error}</p>}

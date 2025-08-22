@@ -3,7 +3,7 @@ import CallToAction from "@/components/CallToAction";
 export default function TermsOfService() {
   return (
     <main className="bg-blue text-white">
-      <div className="section-width py-20 pt-36 flex flex-col items-start">
+      <div className="w-full max-w-3xl mx-auto px-[5vw] py-20 pt-36 flex flex-col items-start">
         <h1 className="max-w-full md:max-w-xl oswald text-center uppercase leading-[1] tracking-[-0.0625rem] text-4xl sm:text-5xl font-semibold text-white mb-4">
           Terms of Service
         </h1>

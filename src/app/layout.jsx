@@ -7,11 +7,11 @@ export const metadata = {
 
   title: "Small Business Web Designer | RF Web Pro",
   description:
-    "Big websites for small businesses. Custom-built, modern, fast, and SEO-friendly websites to help your business grow.",
+    "Custom-built, modern, fast, and SEO-friendly websites to help your business grow.",
   openGraph: {
     title: "Small Business Web Designer | RF Web Pro",
     description:
-      "Big websites for small businesses. Custom-built, modern, fast, and SEO-friendly websites to help your business grow.",
+      "Custom-built, modern, fast, and SEO-friendly websites to help your business grow.",
     url: "https://rfwebpro.com",
     siteName: "RF Web Pro",
     images: [
@@ -29,7 +29,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Small Business Web Designer | RF Web Pro",
     description:
-      "Big websites for small businesses. Custom-built, modern, fast, and SEO-friendly websites to help your business grow.",
+      "Custom-built, modern, fast, and SEO-friendly websites to help your business grow.",
     images: ["/og-image.webp"],
   },
 };
