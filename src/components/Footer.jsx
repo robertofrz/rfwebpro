@@ -49,9 +49,6 @@ export default function Footer() {
                   +55 11 93727-4647
                 </a>
               </li>
-              <li>
-                <p>@rfwebpro</p>
-              </li>
             </ul>
           </div>
         </div>
