@@ -9,7 +9,7 @@ export default function Maintenance() {
             Ongoing maintenance
           </h2>
           <h3 className="max-w-full md:max-w-xl oswald uppercase leading-[1] tracking-[-0.0625rem] text-4xl sm:text-5xl font-semibold mb-4">
-            Worry-Free Website Maintenance for Just €50/month
+            Worry-Free Website Maintenance for Just $50/month
           </h3>
           <p className="text-lg lg:text-base max-w-full md:max-w-xl text-neutral-600">
             The Monthly Plan is designed for those who want total peace of mind.

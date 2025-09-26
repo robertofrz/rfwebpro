@@ -49,7 +49,7 @@ export default function Footer() {
                   +55 11 93727-4647
                 </a>
               </li>
-            </ul>
+              </ul>
           </div>
         </div>
 

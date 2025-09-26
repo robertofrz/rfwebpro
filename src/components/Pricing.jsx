@@ -41,7 +41,7 @@ export default function Pricing() {
             <div className="flex items-end justify-between w-full oswald uppercase mt-auto">
               <div>
                 <p className="text-sm">Starting From</p>
-                <p className="text-5xl font-semibold">€300</p>
+                <p className="text-5xl font-semibold">$300</p>
               </div>
               <Link
                 href="/contact"
@@ -76,7 +76,7 @@ export default function Pricing() {
             <div className="flex items-end justify-between w-full oswald uppercase mt-auto">
               <div>
                 <p className="text-sm">Starting From</p>
-                <p className="text-5xl font-semibold">€500</p>
+                <p className="text-5xl font-semibold">$500</p>
               </div>
               <Link
                 href="/contact"
@@ -103,7 +103,7 @@ export default function Pricing() {
             <div className="flex items-end justify-between w-full oswald uppercase mt-auto ">
               <div>
                 <p className="text-sm">Starting From</p>
-                <p className="text-5xl font-semibold">€800</p>
+                <p className="text-5xl font-semibold">$800</p>
               </div>
               <Link
                 href="/contact"
